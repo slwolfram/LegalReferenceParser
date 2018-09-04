@@ -1,0 +1,51 @@
+Hi Shane,
+
+ 
+
+We’re going to do a little actual coding with you during your interview on Wednesday.
+
+ 
+
+We’ll sit down at a computer together. You can pick your environment.  We will have Visual Studio [VB.NET, C#, F#, C++], IDEA & Eclipse for Java world stuff, and some other common languages [Haskell, Ruby, Python, Perl] already available. If you have a specific IDE or compiler you're comfortable with that's not on that list, please let us know ahead of time. The machine you're on will have internet access if you want to grab packages or search for something, just like you would normally. And we will be working with you, not against you…
+
+ 
+
+The Actual Question
+
+ 
+
+We want to talk about parsing references. Not computer references or pointers. Law references.
+
+ 
+
+In statutes and administrative code, it is common to refer to other portions of the law. To refer to a chapter, people write "ch. 4" or "Chapter 4". To a chapter and section, they say "s. 4.02". Simple enough, right? Well, they also do "See ss. 4.02, 5.12 (a) (17) d. through f., and ch. NR 16.338 (a)." It starts to get complicated.
+
+ 
+
+One subtype of reference points to subchapters. To refer to Chapter 121, Subchapter III, a lawyer would write something like "…as defined in subch. III of ch. 121". We would want to parse out the underlined parts and use them to compose a link.
+
+ 
+
+So, how would you go about parsing such things in an environment where text is quite complicated, and the chapters of text can be quite long? How would you combine it with a chapter parser that's just looking for things like "ch. 229" on their own in text, without the subch. prefix?
+
+Once you've made an algorithm that can find chapter and subchapter references, what about complex chains like "chs. 5 to 12, subch. III of ch. 13, or subch. III of ch. 19"?
+
+ 
+
+Think about these questions -- we want to give you time to think before the interview so you're not completely put on the spot. Save your questions until the interview, though.
+
+ 
+
+We look forward to meeting you.
+
+ 
+
+Thanks,
+
+Doug DeMuth
+
+Software Development Manager
+
+LTSB
+
+ 
